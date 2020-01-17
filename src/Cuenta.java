@@ -91,35 +91,7 @@ public class Cuenta {
 		return importe;
 	}
 
-	// Crear un metodo de modo transferencia
-
-//Es otra estrategia que en vez de utilizar metodos de double, también podemos utilizar los metodos de booleano
-//	public boolean ingreso(double ingresar) {
-//		boolean ingresadoCorrecto = true;
-//		if (ingresar < 0) {
-//			ingresadoCorrecto = false;
-//			System.out.println("No puedes introducir un numero negativo");
-//		} else {
-//			importe += ingresar;
-//		}
-//
-//		return ingresadoCorrecto;
-//	}
-
-//	public boolean reintegro (double retirar) {
-//			boolean retiradoCorrecto = true;
-//			if (retirar <0) {
-//				retiradoCorrecto= false;
-//				System.out.println("No se puede introducir un numero negativo");
-//			}else if (importe >= retirar) {
-//				importe -= retirar;
-//			}else {
-//				retiradoCorrecto= false;
-//			}
-//			
-//		return retiradoCorrecto; 
-//	}
-
+	// Crear un metodo de modo transferencia. Aun no he averiguado
 	@Override
 	public String toString() {
 		return "cliente: " + cliente + ", cuenta:" + cuenta + ", importe: " + importe;
